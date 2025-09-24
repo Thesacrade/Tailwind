@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom styles */
+@layer utilities{
+    .section-min-h{
+        min-height: calc(100vh - 68px);
+    }
+}
+
